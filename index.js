@@ -18,6 +18,7 @@ function currentLine ( arr ) {
   }
   var str = 'Thie line is currently:';
   for (var i=0; i< arr.length; ++i) {
-    str = str + " " + i+1 ". " + arr[i] + ",";
+    str = str.concat(` ${i}. ${arr[i]},`);
   }
+  return 
 }
