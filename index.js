@@ -18,6 +18,6 @@ function currentLine ( arr ) {
   }
   var str = 'Thie line is currently:';
   for (var i=0; i< arr.length; ++i) {
-    str " " + i+1 ". " + arr[i] + ",";
+    str = str + " " + i+1 ". " + arr[i] + ",";
   }
 }
