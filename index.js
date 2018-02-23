@@ -20,5 +20,5 @@ function currentLine ( arr ) {
   for (var i=0; i< arr.length; ++i) {
     str = str.concat(` ${i}. ${arr[i]},`);
   }
-  return 
+  return str.slice(0,str.length-1);
 }
