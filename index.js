@@ -5,4 +5,6 @@ function takeANumber ( arr, name) {
   return arr.length;
 }
 
-function nowServing ()
+function nowServing ( arr ) {
+  if (arr.length === 0) 
+}
