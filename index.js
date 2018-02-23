@@ -6,5 +6,8 @@ function takeANumber ( arr, name) {
 }
 
 function nowServing ( arr ) {
-  if (arr.length === 0) 
+  if (arr.length === 0) {
+    return 'There is nobody waiting to be served!';
+  }
+  
 }
